@@ -1,0 +1,281 @@
+{
+  "stage_id": "1013R_R223P_4_THREE_SAMPLE_REGRESSION",
+  "status": "three_sample_regression_only",
+  "source_delta": "R223P_3_CLASSROOM_EVENT_SCHEMA_V0_2_DELTA",
+  "schema_v0_2_published": false,
+  "existing_teacher_drafts_modified": false,
+  "r222d_component_library_modified": false,
+  "formal_apply": false,
+  "decision": "PASS_CONTINUE_TO_R223P_5_V0_2_LOCK_CANDIDATE",
+  "samples": [
+    {
+      "sample_id": "sample_M_stationery",
+      "title": "我为文具代言 第三阶段 智造·新朋友",
+      "source_stage": "R223M-P5",
+      "teacher_default_source": "R223M_P5_teacher_default_reading_sample_v0_1.md",
+      "review_ledger_source": "R223M_P5_review_ledger_sample_v0_1.json",
+      "lesson_profile": {
+        "unit_phase_role": "practice_creation",
+        "lesson_position_in_unit": "late",
+        "practice_intensity": "high",
+        "student_work_time_ratio": "high",
+        "teacher_support_density": "heavy",
+        "performance_task_link": "一年级购买文具建议书 / 文具课堂使用指南",
+        "stage_evidence_link": "文具结构观察、改造理由、展示表达、赠笔语"
+      },
+      "events": [
+        {
+          "event_id": "event_01_remember_brush_birth",
+          "primary_practice_pattern_type": "observation_discovery",
+          "secondary_patterns": ["artwork_appreciation"],
+          "activated_adapter_fields": ["appreciation_scaffold_type", "artwork_reference_type", "aesthetic_language_focus"],
+          "component_triggers": [{"component_id": "circle_and_annotate", "status": "already_registered"}],
+          "screen_trigger": "毛笔工序图 + 笔头/笔杆/笔尾圈画",
+          "learning_sheet_fields": ["brush_process_use_relation"],
+          "evidence_outputs": ["工序作用说明"]
+        },
+        {
+          "event_id": "event_02_ten_thousand_whys",
+          "primary_practice_pattern_type": "observation_discovery",
+          "secondary_patterns": ["comparison_judgment"],
+          "activated_adapter_fields": ["aesthetic_language_focus"],
+          "component_triggers": [
+            {"component_id": "circle_and_annotate", "status": "already_registered"},
+            {"component_id": "match_cards", "status": "already_registered"}
+          ],
+          "screen_trigger": "四个为什么 + 结构圈画 + 关键词",
+          "learning_sheet_fields": ["why_question_guess_evidence"],
+          "evidence_outputs": ["结构关键词", "圈画依据"]
+        },
+        {
+          "event_id": "event_03_think_like_designer",
+          "primary_practice_pattern_type": "idea_generation",
+          "secondary_patterns": ["comparison_judgment"],
+          "activated_adapter_fields": ["student_practice_output", "transition_to_formal_creation"],
+          "component_triggers": [
+            {"component_id": "compare_two_images", "status": "already_registered"},
+            {"component_id": "sentence_starter", "status": "candidate_from_R222D_pool"}
+          ],
+          "screen_trigger": "设计案例细节圈画 + 握/放/收/找方向",
+          "learning_sheet_fields": ["small_problem_small_solution"],
+          "evidence_outputs": ["改进方向和理由"]
+        },
+        {
+          "event_id": "event_04_one_plus_one_design",
+          "primary_practice_pattern_type": "micro_practice",
+          "secondary_patterns": ["comparison_judgment"],
+          "activated_adapter_fields": ["micro_practice_type", "student_practice_output", "transition_to_formal_creation", "process_evidence"],
+          "component_triggers": [
+            {"component_id": "photo_submit", "status": "already_registered"},
+            {"component_id": "compare_two_images", "status": "already_registered"},
+            {"component_id": "learning_sheet_record", "status": "already_registered"}
+          ],
+          "screen_trigger": "装饰作品 / 功能改造作品对比",
+          "learning_sheet_fields": ["problem_material_change"],
+          "evidence_outputs": ["1+1 小设计照片", "合作分工痕迹"]
+        },
+        {
+          "event_id": "event_05_one_plus_n_transformation",
+          "primary_practice_pattern_type": "creation_progression",
+          "secondary_patterns": ["teacher_demonstration", "material_experiment"],
+          "activated_adapter_fields": ["demonstration_type", "technique_breakthrough_point", "checkpoint", "process_evidence", "material_safety_or_management"],
+          "component_triggers": [
+            {"component_id": "technique_step_demo", "status": "already_registered"},
+            {"component_id": "material_choice_board", "status": "new_surface_candidate"},
+            {"component_id": "photo_submit", "status": "already_registered"}
+          ],
+          "screen_trigger": "盘的技法 + 材料过多与合适材料对比",
+          "learning_sheet_fields": ["material_method_problem_revision"],
+          "evidence_outputs": ["1+n 新朋友作品", "材料技法选择理由"]
+        },
+        {
+          "event_id": "event_06_pen_friend_gallery",
+          "primary_practice_pattern_type": "showcase_evaluation",
+          "secondary_patterns": ["closure_transfer"],
+          "activated_adapter_fields": ["process_evidence", "stage_evidence_link"],
+          "component_triggers": [
+            {"component_id": "gallery_walk", "status": "already_registered"},
+            {"component_id": "keyword_feedback", "status": "new_surface_candidate"}
+          ],
+          "screen_trigger": "结构、功能、材料、使用词云",
+          "learning_sheet_fields": ["presentation_sentence_peer_feedback"],
+          "evidence_outputs": ["展示架选择", "同伴点评语"]
+        },
+        {
+          "event_id": "event_07_gift_pen_ritual",
+          "primary_practice_pattern_type": "closure_transfer",
+          "secondary_patterns": ["showcase_evaluation"],
+          "activated_adapter_fields": ["performance_task_link", "stage_evidence_link", "exit_condition"],
+          "component_triggers": [
+            {"component_id": "sentence_starter", "status": "candidate_from_R222D_pool"},
+            {"component_id": "learning_sheet_record", "status": "already_registered"}
+          ],
+          "screen_trigger": "赠笔语句式 + 单元表现性任务标题",
+          "learning_sheet_fields": ["gift_sentence_purchase_or_use_advice"],
+          "evidence_outputs": ["赠笔语", "使用建议"]
+        }
+      ],
+      "regression_result": "PASS"
+    },
+    {
+      "sample_id": "sample_N_paper_print",
+      "title": "有趣的纸印",
+      "source_stage": "R223N-P3-P1",
+      "teacher_default_source": "R223N_P3_P1_teacher_manuscript_draft_v5.md",
+      "review_ledger_source": "R223N_P3_P1_review_ledger_preservation_note.md",
+      "lesson_profile": {
+        "unit_phase_role": "technique_preparation",
+        "lesson_position_in_unit": "middle",
+        "practice_intensity": "medium",
+        "student_work_time_ratio": "medium",
+        "teacher_support_density": "normal",
+        "performance_task_link": "纸印作品与印痕说明",
+        "stage_evidence_link": "纸材预测、改造小样、试印记录、印法比较、作品说明"
+      },
+      "events": [
+        {
+          "event_id": "paper_print_event_01_task_entry",
+          "primary_practice_pattern_type": "comparison_judgment",
+          "secondary_patterns": ["observation_discovery"],
+          "activated_adapter_fields": ["aesthetic_language_focus", "artwork_reference_type"],
+          "component_triggers": [{"component_id": "compare_two_images", "status": "already_registered"}],
+          "evidence_outputs": ["印痕观察点"]
+        },
+        {
+          "event_id": "paper_print_event_02_material_texture_observation",
+          "primary_practice_pattern_type": "material_experiment",
+          "secondary_patterns": ["observation_discovery"],
+          "activated_adapter_fields": ["material_safety_or_management", "student_practice_output"],
+          "component_triggers": [{"component_id": "material_blind_box", "status": "already_registered"}],
+          "evidence_outputs": ["纸材预测"]
+        },
+        {
+          "event_id": "paper_print_event_03_texture_making",
+          "primary_practice_pattern_type": "teacher_demonstration",
+          "secondary_patterns": ["micro_practice"],
+          "activated_adapter_fields": ["demonstration_type", "micro_practice_type", "student_practice_output", "transition_to_formal_creation"],
+          "component_triggers": [{"component_id": "technique_step_demo", "status": "already_registered"}],
+          "evidence_outputs": ["改造小样"]
+        },
+        {
+          "event_id": "paper_print_event_04_first_print_trial",
+          "primary_practice_pattern_type": "micro_practice",
+          "secondary_patterns": ["material_experiment"],
+          "activated_adapter_fields": ["micro_practice_type", "student_practice_output", "transition_to_formal_creation", "material_safety_or_management"],
+          "component_triggers": [{"component_id": "circle_and_annotate", "status": "already_registered"}],
+          "evidence_outputs": ["试印记录", "调整计划"]
+        },
+        {
+          "event_id": "paper_print_event_05_print_method_comparison",
+          "primary_practice_pattern_type": "comparison_judgment",
+          "secondary_patterns": ["material_experiment"],
+          "activated_adapter_fields": ["aesthetic_language_focus", "student_practice_output"],
+          "component_triggers": [{"component_id": "compare_two_images", "status": "already_registered"}],
+          "evidence_outputs": ["同版不同印法对照"]
+        },
+        {
+          "event_id": "paper_print_event_06_artwork_creation_with_print_marks",
+          "primary_practice_pattern_type": "creation_progression",
+          "secondary_patterns": ["showcase_evaluation"],
+          "activated_adapter_fields": ["checkpoint", "process_evidence", "student_practice_output"],
+          "component_triggers": [{"component_id": "midway_projection_review", "status": "new_surface_candidate"}],
+          "evidence_outputs": ["作品中可说明来源的印痕"]
+        },
+        {
+          "event_id": "paper_print_event_07_gallery_reflection",
+          "primary_practice_pattern_type": "showcase_evaluation",
+          "secondary_patterns": ["closure_transfer"],
+          "activated_adapter_fields": ["stage_evidence_link", "process_evidence"],
+          "component_triggers": [{"component_id": "gallery_wall", "status": "already_registered"}],
+          "evidence_outputs": ["作品和试印证据归档"]
+        }
+      ],
+      "regression_result": "PASS"
+    },
+    {
+      "sample_id": "sample_O_color_collision",
+      "title": "色彩的碰撞",
+      "source_stage": "R223O-P1",
+      "teacher_default_source": "R223O_P1_teacher_manuscript_draft_v2.md",
+      "review_ledger_source": "R223O_P1_review_ledger_sample.json",
+      "lesson_profile": {
+        "unit_phase_role": "intro_understanding",
+        "lesson_position_in_unit": "early",
+        "practice_intensity": "medium",
+        "student_work_time_ratio": "medium",
+        "teacher_support_density": "normal",
+        "performance_task_link": "红、黄、蓝色彩创想会",
+        "stage_evidence_link": "校园色彩观察、三原色调色记录、同色差异比较、色彩创想卡"
+      },
+      "events": [
+        {
+          "event_id": "r223o_color_event_01_campus_color_entry",
+          "primary_practice_pattern_type": "observation_discovery",
+          "secondary_patterns": ["artwork_appreciation"],
+          "activated_adapter_fields": ["aesthetic_language_focus"],
+          "component_triggers": [{"component_id": "image_color_spotting", "status": "new_surface_candidate"}],
+          "evidence_outputs": ["校园色彩观察句"]
+        },
+        {
+          "event_id": "r223o_color_event_02_primary_color_question",
+          "primary_practice_pattern_type": "observation_discovery",
+          "secondary_patterns": ["material_experiment"],
+          "activated_adapter_fields": ["material_safety_or_management"],
+          "component_triggers": [{"component_id": "experiment_rule_card", "status": "new_surface_candidate"}],
+          "evidence_outputs": ["三原色起点记录"]
+        },
+        {
+          "event_id": "r223o_color_event_03_two_color_mixing",
+          "primary_practice_pattern_type": "material_experiment",
+          "secondary_patterns": ["micro_practice"],
+          "activated_adapter_fields": ["micro_practice_type", "student_practice_output", "transition_to_formal_creation", "material_safety_or_management"],
+          "component_triggers": [{"component_id": "color_mixing_trial", "status": "new_surface_candidate"}],
+          "evidence_outputs": ["间色调色样本", "比例观察"]
+        },
+        {
+          "event_id": "r223o_color_event_04_compare_color_differences",
+          "primary_practice_pattern_type": "comparison_judgment",
+          "secondary_patterns": ["observation_discovery"],
+          "activated_adapter_fields": ["aesthetic_language_focus"],
+          "component_triggers": [{"component_id": "compare_color_swatches", "status": "new_surface_candidate"}],
+          "evidence_outputs": ["同色差异句"]
+        },
+        {
+          "event_id": "r223o_color_event_05_complex_color_adjustment",
+          "primary_practice_pattern_type": "micro_practice",
+          "secondary_patterns": ["material_experiment"],
+          "activated_adapter_fields": ["micro_practice_type", "student_practice_output", "transition_to_formal_creation"],
+          "component_triggers": [{"component_id": "mistake_repair", "status": "already_registered"}],
+          "evidence_outputs": ["复色变化记录"]
+        },
+        {
+          "event_id": "r223o_color_event_06_color_collision_task",
+          "primary_practice_pattern_type": "idea_generation",
+          "secondary_patterns": ["showcase_evaluation"],
+          "activated_adapter_fields": ["student_practice_output", "transition_to_formal_creation", "performance_task_link"],
+          "component_triggers": [{"component_id": "select_best_evidence", "status": "new_surface_candidate"}],
+          "evidence_outputs": ["色彩创想卡"]
+        },
+        {
+          "event_id": "r223o_color_event_07_share_color_feeling",
+          "primary_practice_pattern_type": "showcase_evaluation",
+          "secondary_patterns": ["closure_transfer"],
+          "activated_adapter_fields": ["stage_evidence_link", "process_evidence"],
+          "component_triggers": [{"component_id": "gallery_walk", "status": "already_registered"}],
+          "evidence_outputs": ["展示评价记录"]
+        }
+      ],
+      "regression_result": "PASS"
+    }
+  ],
+  "cross_sample_result": {
+    "all_samples_pass": true,
+    "teacher_default_view_clean": true,
+    "review_ledger_has_primary_patterns": true,
+    "content_contamination_detected": false,
+    "unit_intensity_router_effective_samples": 3,
+    "unregistered_components_hidden_from_teacher_default": true,
+    "field_overload_detected": false
+  }
+}
+
