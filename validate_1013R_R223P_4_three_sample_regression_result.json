@@ -1,0 +1,689 @@
+{
+  "passed": true,
+  "check_count": 168,
+  "failed": 0,
+  "failures": [],
+  "decision": "PASS_CONTINUE_TO_R223P_5_V0_2_LOCK_CANDIDATE",
+  "checks": [
+    {
+      "check": "required_file:R223P_4_regression_plan.md",
+      "passed": true
+    },
+    {
+      "check": "required_file:R223P_4_sample_M_stationery_regression.md",
+      "passed": true
+    },
+    {
+      "check": "required_file:R223P_4_sample_N_paper_print_regression.md",
+      "passed": true
+    },
+    {
+      "check": "required_file:R223P_4_sample_O_color_collision_regression.md",
+      "passed": true
+    },
+    {
+      "check": "required_file:R223P_4_three_sample_regression_matrix.json",
+      "passed": true
+    },
+    {
+      "check": "required_file:R223P_4_teacher_default_view_check.md",
+      "passed": true
+    },
+    {
+      "check": "required_file:R223P_4_review_ledger_check.md",
+      "passed": true
+    },
+    {
+      "check": "required_file:R223P_4_component_trigger_status_check.md",
+      "passed": true
+    },
+    {
+      "check": "required_file:R223P_4_unit_intensity_router_effectiveness_check.md",
+      "passed": true
+    },
+    {
+      "check": "required_file:R223P_4_field_overload_check.md",
+      "passed": true
+    },
+    {
+      "check": "required_file:R223P_4_decision_report.md",
+      "passed": true
+    },
+    {
+      "check": "required_file:PACKAGE_MANIFEST.json",
+      "passed": true
+    },
+    {
+      "check": "required_file:README_FOR_GPT_REVIEW.md",
+      "passed": true
+    },
+    {
+      "check": "manifest_stage",
+      "passed": true
+    },
+    {
+      "check": "decision",
+      "passed": true
+    },
+    {
+      "check": "boundary_false:schema_v0_2_published",
+      "passed": true
+    },
+    {
+      "check": "boundary_false:r223m_p5_schema_modified",
+      "passed": true
+    },
+    {
+      "check": "boundary_false:existing_teacher_drafts_modified",
+      "passed": true
+    },
+    {
+      "check": "boundary_false:r222d_component_library_modified",
+      "passed": true
+    },
+    {
+      "check": "boundary_false:formal_ui",
+      "passed": true
+    },
+    {
+      "check": "boundary_false:r97b_modified",
+      "passed": true
+    },
+    {
+      "check": "boundary_false:frontend_backend_modified",
+      "passed": true
+    },
+    {
+      "check": "boundary_false:runtime_connected",
+      "passed": true
+    },
+    {
+      "check": "boundary_false:provider_model_connected",
+      "passed": true
+    },
+    {
+      "check": "boundary_false:prompt_modified",
+      "passed": true
+    },
+    {
+      "check": "boundary_false:database_written",
+      "passed": true
+    },
+    {
+      "check": "boundary_false:formal_apply",
+      "passed": true
+    },
+    {
+      "check": "sample_exists:sample_M_stationery",
+      "passed": true
+    },
+    {
+      "check": "sample_pass:sample_M_stationery",
+      "passed": true
+    },
+    {
+      "check": "profile:sample_M_stationery:unit_phase_role",
+      "passed": true
+    },
+    {
+      "check": "profile:sample_M_stationery:practice_intensity",
+      "passed": true
+    },
+    {
+      "check": "profile:sample_M_stationery:student_work_time_ratio",
+      "passed": true
+    },
+    {
+      "check": "profile:sample_M_stationery:teacher_support_density",
+      "passed": true
+    },
+    {
+      "check": "events_min_7:sample_M_stationery",
+      "passed": true
+    },
+    {
+      "check": "primary_pattern:sample_M_stationery:event_01_remember_brush_birth",
+      "passed": true
+    },
+    {
+      "check": "evidence_outputs:sample_M_stationery:event_01_remember_brush_birth",
+      "passed": true
+    },
+    {
+      "check": "component_status:sample_M_stationery:event_01_remember_brush_birth:circle_and_annotate",
+      "passed": true
+    },
+    {
+      "check": "primary_pattern:sample_M_stationery:event_02_ten_thousand_whys",
+      "passed": true
+    },
+    {
+      "check": "evidence_outputs:sample_M_stationery:event_02_ten_thousand_whys",
+      "passed": true
+    },
+    {
+      "check": "component_status:sample_M_stationery:event_02_ten_thousand_whys:circle_and_annotate",
+      "passed": true
+    },
+    {
+      "check": "component_status:sample_M_stationery:event_02_ten_thousand_whys:match_cards",
+      "passed": true
+    },
+    {
+      "check": "primary_pattern:sample_M_stationery:event_03_think_like_designer",
+      "passed": true
+    },
+    {
+      "check": "evidence_outputs:sample_M_stationery:event_03_think_like_designer",
+      "passed": true
+    },
+    {
+      "check": "component_status:sample_M_stationery:event_03_think_like_designer:compare_two_images",
+      "passed": true
+    },
+    {
+      "check": "component_status:sample_M_stationery:event_03_think_like_designer:sentence_starter",
+      "passed": true
+    },
+    {
+      "check": "primary_pattern:sample_M_stationery:event_04_one_plus_one_design",
+      "passed": true
+    },
+    {
+      "check": "evidence_outputs:sample_M_stationery:event_04_one_plus_one_design",
+      "passed": true
+    },
+    {
+      "check": "component_status:sample_M_stationery:event_04_one_plus_one_design:photo_submit",
+      "passed": true
+    },
+    {
+      "check": "component_status:sample_M_stationery:event_04_one_plus_one_design:compare_two_images",
+      "passed": true
+    },
+    {
+      "check": "component_status:sample_M_stationery:event_04_one_plus_one_design:learning_sheet_record",
+      "passed": true
+    },
+    {
+      "check": "primary_pattern:sample_M_stationery:event_05_one_plus_n_transformation",
+      "passed": true
+    },
+    {
+      "check": "evidence_outputs:sample_M_stationery:event_05_one_plus_n_transformation",
+      "passed": true
+    },
+    {
+      "check": "component_status:sample_M_stationery:event_05_one_plus_n_transformation:technique_step_demo",
+      "passed": true
+    },
+    {
+      "check": "component_status:sample_M_stationery:event_05_one_plus_n_transformation:material_choice_board",
+      "passed": true
+    },
+    {
+      "check": "component_status:sample_M_stationery:event_05_one_plus_n_transformation:photo_submit",
+      "passed": true
+    },
+    {
+      "check": "primary_pattern:sample_M_stationery:event_06_pen_friend_gallery",
+      "passed": true
+    },
+    {
+      "check": "evidence_outputs:sample_M_stationery:event_06_pen_friend_gallery",
+      "passed": true
+    },
+    {
+      "check": "component_status:sample_M_stationery:event_06_pen_friend_gallery:gallery_walk",
+      "passed": true
+    },
+    {
+      "check": "component_status:sample_M_stationery:event_06_pen_friend_gallery:keyword_feedback",
+      "passed": true
+    },
+    {
+      "check": "primary_pattern:sample_M_stationery:event_07_gift_pen_ritual",
+      "passed": true
+    },
+    {
+      "check": "evidence_outputs:sample_M_stationery:event_07_gift_pen_ritual",
+      "passed": true
+    },
+    {
+      "check": "component_status:sample_M_stationery:event_07_gift_pen_ritual:sentence_starter",
+      "passed": true
+    },
+    {
+      "check": "component_status:sample_M_stationery:event_07_gift_pen_ritual:learning_sheet_record",
+      "passed": true
+    },
+    {
+      "check": "sample_exists:sample_N_paper_print",
+      "passed": true
+    },
+    {
+      "check": "sample_pass:sample_N_paper_print",
+      "passed": true
+    },
+    {
+      "check": "profile:sample_N_paper_print:unit_phase_role",
+      "passed": true
+    },
+    {
+      "check": "profile:sample_N_paper_print:practice_intensity",
+      "passed": true
+    },
+    {
+      "check": "profile:sample_N_paper_print:student_work_time_ratio",
+      "passed": true
+    },
+    {
+      "check": "profile:sample_N_paper_print:teacher_support_density",
+      "passed": true
+    },
+    {
+      "check": "events_min_7:sample_N_paper_print",
+      "passed": true
+    },
+    {
+      "check": "primary_pattern:sample_N_paper_print:paper_print_event_01_task_entry",
+      "passed": true
+    },
+    {
+      "check": "evidence_outputs:sample_N_paper_print:paper_print_event_01_task_entry",
+      "passed": true
+    },
+    {
+      "check": "component_status:sample_N_paper_print:paper_print_event_01_task_entry:compare_two_images",
+      "passed": true
+    },
+    {
+      "check": "primary_pattern:sample_N_paper_print:paper_print_event_02_material_texture_observation",
+      "passed": true
+    },
+    {
+      "check": "evidence_outputs:sample_N_paper_print:paper_print_event_02_material_texture_observation",
+      "passed": true
+    },
+    {
+      "check": "component_status:sample_N_paper_print:paper_print_event_02_material_texture_observation:material_blind_box",
+      "passed": true
+    },
+    {
+      "check": "primary_pattern:sample_N_paper_print:paper_print_event_03_texture_making",
+      "passed": true
+    },
+    {
+      "check": "evidence_outputs:sample_N_paper_print:paper_print_event_03_texture_making",
+      "passed": true
+    },
+    {
+      "check": "component_status:sample_N_paper_print:paper_print_event_03_texture_making:technique_step_demo",
+      "passed": true
+    },
+    {
+      "check": "primary_pattern:sample_N_paper_print:paper_print_event_04_first_print_trial",
+      "passed": true
+    },
+    {
+      "check": "evidence_outputs:sample_N_paper_print:paper_print_event_04_first_print_trial",
+      "passed": true
+    },
+    {
+      "check": "component_status:sample_N_paper_print:paper_print_event_04_first_print_trial:circle_and_annotate",
+      "passed": true
+    },
+    {
+      "check": "primary_pattern:sample_N_paper_print:paper_print_event_05_print_method_comparison",
+      "passed": true
+    },
+    {
+      "check": "evidence_outputs:sample_N_paper_print:paper_print_event_05_print_method_comparison",
+      "passed": true
+    },
+    {
+      "check": "component_status:sample_N_paper_print:paper_print_event_05_print_method_comparison:compare_two_images",
+      "passed": true
+    },
+    {
+      "check": "primary_pattern:sample_N_paper_print:paper_print_event_06_artwork_creation_with_print_marks",
+      "passed": true
+    },
+    {
+      "check": "evidence_outputs:sample_N_paper_print:paper_print_event_06_artwork_creation_with_print_marks",
+      "passed": true
+    },
+    {
+      "check": "component_status:sample_N_paper_print:paper_print_event_06_artwork_creation_with_print_marks:midway_projection_review",
+      "passed": true
+    },
+    {
+      "check": "primary_pattern:sample_N_paper_print:paper_print_event_07_gallery_reflection",
+      "passed": true
+    },
+    {
+      "check": "evidence_outputs:sample_N_paper_print:paper_print_event_07_gallery_reflection",
+      "passed": true
+    },
+    {
+      "check": "component_status:sample_N_paper_print:paper_print_event_07_gallery_reflection:gallery_wall",
+      "passed": true
+    },
+    {
+      "check": "sample_exists:sample_O_color_collision",
+      "passed": true
+    },
+    {
+      "check": "sample_pass:sample_O_color_collision",
+      "passed": true
+    },
+    {
+      "check": "profile:sample_O_color_collision:unit_phase_role",
+      "passed": true
+    },
+    {
+      "check": "profile:sample_O_color_collision:practice_intensity",
+      "passed": true
+    },
+    {
+      "check": "profile:sample_O_color_collision:student_work_time_ratio",
+      "passed": true
+    },
+    {
+      "check": "profile:sample_O_color_collision:teacher_support_density",
+      "passed": true
+    },
+    {
+      "check": "events_min_7:sample_O_color_collision",
+      "passed": true
+    },
+    {
+      "check": "primary_pattern:sample_O_color_collision:r223o_color_event_01_campus_color_entry",
+      "passed": true
+    },
+    {
+      "check": "evidence_outputs:sample_O_color_collision:r223o_color_event_01_campus_color_entry",
+      "passed": true
+    },
+    {
+      "check": "component_status:sample_O_color_collision:r223o_color_event_01_campus_color_entry:image_color_spotting",
+      "passed": true
+    },
+    {
+      "check": "primary_pattern:sample_O_color_collision:r223o_color_event_02_primary_color_question",
+      "passed": true
+    },
+    {
+      "check": "evidence_outputs:sample_O_color_collision:r223o_color_event_02_primary_color_question",
+      "passed": true
+    },
+    {
+      "check": "component_status:sample_O_color_collision:r223o_color_event_02_primary_color_question:experiment_rule_card",
+      "passed": true
+    },
+    {
+      "check": "primary_pattern:sample_O_color_collision:r223o_color_event_03_two_color_mixing",
+      "passed": true
+    },
+    {
+      "check": "evidence_outputs:sample_O_color_collision:r223o_color_event_03_two_color_mixing",
+      "passed": true
+    },
+    {
+      "check": "component_status:sample_O_color_collision:r223o_color_event_03_two_color_mixing:color_mixing_trial",
+      "passed": true
+    },
+    {
+      "check": "primary_pattern:sample_O_color_collision:r223o_color_event_04_compare_color_differences",
+      "passed": true
+    },
+    {
+      "check": "evidence_outputs:sample_O_color_collision:r223o_color_event_04_compare_color_differences",
+      "passed": true
+    },
+    {
+      "check": "component_status:sample_O_color_collision:r223o_color_event_04_compare_color_differences:compare_color_swatches",
+      "passed": true
+    },
+    {
+      "check": "primary_pattern:sample_O_color_collision:r223o_color_event_05_complex_color_adjustment",
+      "passed": true
+    },
+    {
+      "check": "evidence_outputs:sample_O_color_collision:r223o_color_event_05_complex_color_adjustment",
+      "passed": true
+    },
+    {
+      "check": "component_status:sample_O_color_collision:r223o_color_event_05_complex_color_adjustment:mistake_repair",
+      "passed": true
+    },
+    {
+      "check": "primary_pattern:sample_O_color_collision:r223o_color_event_06_color_collision_task",
+      "passed": true
+    },
+    {
+      "check": "evidence_outputs:sample_O_color_collision:r223o_color_event_06_color_collision_task",
+      "passed": true
+    },
+    {
+      "check": "component_status:sample_O_color_collision:r223o_color_event_06_color_collision_task:select_best_evidence",
+      "passed": true
+    },
+    {
+      "check": "primary_pattern:sample_O_color_collision:r223o_color_event_07_share_color_feeling",
+      "passed": true
+    },
+    {
+      "check": "evidence_outputs:sample_O_color_collision:r223o_color_event_07_share_color_feeling",
+      "passed": true
+    },
+    {
+      "check": "component_status:sample_O_color_collision:r223o_color_event_07_share_color_feeling:gallery_walk",
+      "passed": true
+    },
+    {
+      "check": "unit_intensity_distinct_profiles_at_least_2",
+      "passed": true,
+      "detail": [
+        "('intro_understanding', 'medium', 'normal')",
+        "('practice_creation', 'high', 'heavy')",
+        "('technique_preparation', 'medium', 'normal')"
+      ]
+    },
+    {
+      "check": "teacher_source_exists:sample_M_stationery",
+      "passed": true,
+      "detail": "D:\\Documents\\SmartEdu\\xiaobei-core\\outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R223M_P5_GOLDEN_STANDARD_LOCK_PACKAGE\\R223M_P5_teacher_default_reading_sample_v0_1.md"
+    },
+    {
+      "check": "teacher_no_forbidden:sample_M_stationery:practice_pattern_type",
+      "passed": true
+    },
+    {
+      "check": "teacher_no_forbidden:sample_M_stationery:demonstration_type",
+      "passed": true
+    },
+    {
+      "check": "teacher_no_forbidden:sample_M_stationery:micro_practice_type",
+      "passed": true
+    },
+    {
+      "check": "teacher_no_forbidden:sample_M_stationery:appreciation_scaffold_type",
+      "passed": true
+    },
+    {
+      "check": "teacher_no_forbidden:sample_M_stationery:component_trigger",
+      "passed": true
+    },
+    {
+      "check": "teacher_no_forbidden:sample_M_stationery:component_trigger_status",
+      "passed": true
+    },
+    {
+      "check": "teacher_no_forbidden:sample_M_stationery:screen_trigger",
+      "passed": true
+    },
+    {
+      "check": "teacher_no_forbidden:sample_M_stationery:learning_sheet_fields",
+      "passed": true
+    },
+    {
+      "check": "teacher_source_exists:sample_N_paper_print",
+      "passed": true,
+      "detail": "D:\\Documents\\SmartEdu\\xiaobei-core\\outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R223N_P3_P1_LIGHT_SAMPLE_FLAVOR_AND_LAYOUT_POLISH\\R223N_P3_P1_teacher_manuscript_draft_v5.md"
+    },
+    {
+      "check": "teacher_no_forbidden:sample_N_paper_print:practice_pattern_type",
+      "passed": true
+    },
+    {
+      "check": "teacher_no_forbidden:sample_N_paper_print:demonstration_type",
+      "passed": true
+    },
+    {
+      "check": "teacher_no_forbidden:sample_N_paper_print:micro_practice_type",
+      "passed": true
+    },
+    {
+      "check": "teacher_no_forbidden:sample_N_paper_print:appreciation_scaffold_type",
+      "passed": true
+    },
+    {
+      "check": "teacher_no_forbidden:sample_N_paper_print:component_trigger",
+      "passed": true
+    },
+    {
+      "check": "teacher_no_forbidden:sample_N_paper_print:component_trigger_status",
+      "passed": true
+    },
+    {
+      "check": "teacher_no_forbidden:sample_N_paper_print:screen_trigger",
+      "passed": true
+    },
+    {
+      "check": "teacher_no_forbidden:sample_N_paper_print:learning_sheet_fields",
+      "passed": true
+    },
+    {
+      "check": "teacher_source_exists:sample_O_color_collision",
+      "passed": true,
+      "detail": "D:\\Documents\\SmartEdu\\xiaobei-core\\outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R223O_P1_COLOR_MANUSCRIPT_STRUCTURE_RECOVERY\\R223O_P1_teacher_manuscript_draft_v2.md"
+    },
+    {
+      "check": "teacher_no_forbidden:sample_O_color_collision:practice_pattern_type",
+      "passed": true
+    },
+    {
+      "check": "teacher_no_forbidden:sample_O_color_collision:demonstration_type",
+      "passed": true
+    },
+    {
+      "check": "teacher_no_forbidden:sample_O_color_collision:micro_practice_type",
+      "passed": true
+    },
+    {
+      "check": "teacher_no_forbidden:sample_O_color_collision:appreciation_scaffold_type",
+      "passed": true
+    },
+    {
+      "check": "teacher_no_forbidden:sample_O_color_collision:component_trigger",
+      "passed": true
+    },
+    {
+      "check": "teacher_no_forbidden:sample_O_color_collision:component_trigger_status",
+      "passed": true
+    },
+    {
+      "check": "teacher_no_forbidden:sample_O_color_collision:screen_trigger",
+      "passed": true
+    },
+    {
+      "check": "teacher_no_forbidden:sample_O_color_collision:learning_sheet_fields",
+      "passed": true
+    },
+    {
+      "check": "no_content_contamination:sample_M_stationery:纸印",
+      "passed": true
+    },
+    {
+      "check": "no_content_contamination:sample_M_stationery:红黄蓝",
+      "passed": true
+    },
+    {
+      "check": "no_content_contamination:sample_M_stationery:间色",
+      "passed": true
+    },
+    {
+      "check": "no_content_contamination:sample_N_paper_print:赠笔",
+      "passed": true
+    },
+    {
+      "check": "no_content_contamination:sample_N_paper_print:智造",
+      "passed": true
+    },
+    {
+      "check": "no_content_contamination:sample_N_paper_print:红黄蓝",
+      "passed": true
+    },
+    {
+      "check": "no_content_contamination:sample_O_color_collision:赠笔",
+      "passed": true
+    },
+    {
+      "check": "no_content_contamination:sample_O_color_collision:纸印",
+      "passed": true
+    },
+    {
+      "check": "no_content_contamination:sample_O_color_collision:版画车间坊",
+      "passed": true
+    },
+    {
+      "check": "doc_mentions_PASS:R223P_4_teacher_default_view_check.md",
+      "passed": true
+    },
+    {
+      "check": "doc_mentions_PASS:R223P_4_review_ledger_check.md",
+      "passed": true
+    },
+    {
+      "check": "doc_mentions_PASS:R223P_4_component_trigger_status_check.md",
+      "passed": true
+    },
+    {
+      "check": "doc_mentions_PASS:R223P_4_unit_intensity_router_effectiveness_check.md",
+      "passed": true
+    },
+    {
+      "check": "doc_mentions_PASS:R223P_4_field_overload_check.md",
+      "passed": true
+    },
+    {
+      "check": "cross_sample_true:all_samples_pass",
+      "passed": true
+    },
+    {
+      "check": "cross_sample_true:teacher_default_view_clean",
+      "passed": true
+    },
+    {
+      "check": "cross_sample_true:review_ledger_has_primary_patterns",
+      "passed": true
+    },
+    {
+      "check": "cross_sample_true:unregistered_components_hidden_from_teacher_default",
+      "passed": true
+    },
+    {
+      "check": "content_contamination_false",
+      "passed": true
+    },
+    {
+      "check": "field_overload_false",
+      "passed": true
+    },
+    {
+      "check": "unit_intensity_effective_2_of_3",
+      "passed": true
+    }
+  ]
+}
