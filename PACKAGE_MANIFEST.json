@@ -1,0 +1,40 @@
+{
+  "stage_id": "1013R_R223P_4_THREE_SAMPLE_REGRESSION",
+  "status": "three_sample_regression_only",
+  "decision": "PASS_CONTINUE_TO_R223P_5_V0_2_LOCK_CANDIDATE",
+  "schema_v0_2_published": false,
+  "r223m_p5_schema_modified": false,
+  "existing_teacher_drafts_modified": false,
+  "r222d_component_library_modified": false,
+  "formal_ui": false,
+  "r97b_modified": false,
+  "frontend_backend_modified": false,
+  "runtime_connected": false,
+  "provider_model_connected": false,
+  "prompt_modified": false,
+  "database_written": false,
+  "formal_apply": false,
+  "samples": [
+    "sample_M_stationery",
+    "sample_N_paper_print",
+    "sample_O_color_collision"
+  ],
+  "files": [
+    "R223P_4_regression_plan.md",
+    "R223P_4_sample_M_stationery_regression.md",
+    "R223P_4_sample_N_paper_print_regression.md",
+    "R223P_4_sample_O_color_collision_regression.md",
+    "R223P_4_three_sample_regression_matrix.json",
+    "R223P_4_teacher_default_view_check.md",
+    "R223P_4_review_ledger_check.md",
+    "R223P_4_component_trigger_status_check.md",
+    "R223P_4_unit_intensity_router_effectiveness_check.md",
+    "R223P_4_field_overload_check.md",
+    "R223P_4_decision_report.md",
+    "validate_1013R_R223P_4_three_sample_regression.py",
+    "validate_1013R_R223P_4_three_sample_regression_result.json",
+    "README_FOR_GPT_REVIEW.md",
+    "PACKAGE_MANIFEST.json"
+  ]
+}
+
